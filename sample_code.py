@@ -1,5 +1,7 @@
-if attr == True:
-    print('True !')
+def make_complex(x, y):
+    return {'x': x, 'y': y}
 
-if attr == False:
-    print('attr is None !')
+if __name__ == '__main__':
+    x = 10
+    y = 10
+    make_complex(x, y)
